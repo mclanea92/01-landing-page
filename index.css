@@ -28,17 +28,35 @@ a {
     color: white;
     text-decoration: none;
 }
-#join {
-    color: black;
+#foot {
+    border: 20px;
+    border-color: black;
 }
-.float-l {
-    float: left;
+
+
+.background img{
+    background-image: 
+    float left;
     margin-right: 25px;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     margin-bottom: 25px;
+    margin-top: 25px;
     background-size: cover;
-    background-position: center;
+    position: relative; left: 25% 
+    
+    
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+
+.about1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
 }
 footer {
     display: block;
@@ -46,8 +64,14 @@ footer {
     position: center;
     bottom: 0;
     text-align: center;
-    height: 50px;
+    height: 100%;
     width: 100%;
     border-top: 1px solid white;
     justify-content: center;
+    border: 10px black;
+    margin: 10px;
 }
+#join {
+    color: black;
+    font-weight: bolder;
+   
